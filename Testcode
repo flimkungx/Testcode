@@ -1,5 +1,5 @@
 //7. ค้นหาเพลงโดยใช้ชื่อ (Search Song)
-public void boolean searchSongByTitle (String title) { 
+public boolean searchSongByTitle (String title) { 
     if (head == null) return false;
       do {
         if (temp.title.equalsIgnoreCase (title))
