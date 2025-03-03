@@ -28,7 +28,7 @@ public void Display all playlist() {
 //9. เล่นเพลงปัจจุบัน (Play current)
 public void playCurrentSong() {
     if (head == null) {
-        System.out.println("No songs in the playlist.'");
+        System.out.println("No songs in the playlist.");
     } else {
         System.out.println("Now playing:"+ head,title+"by"+head.artist);
     }
